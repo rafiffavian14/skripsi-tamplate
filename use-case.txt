@@ -1,0 +1,11 @@
+melakukan login
+mengubah sebuah data
+membuat data
+menghapus data
+mengupload file
+mendownload file
+melihat data
+mengendalikan dan membuat akses role
+membuat sistem informasi
+membuat database
+membuat table

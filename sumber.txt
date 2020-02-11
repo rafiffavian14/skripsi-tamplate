@@ -1,0 +1,30 @@
+idef 0 dan 1 
+1. ARIKA, Vol. 04, No. 2 Agustus 2010 ISSN: 1978-1105
+INTEGRASI IDEF0 DAN IDEF1 DALAM CIMOSA
+Victor O. Lawalata Dosen Program Studi Teknik Industri, Jurusan Teknik Mesin, Fakultas Teknik, Universitas Pattimura Ambon
+
+2. Pemodelan Menggunakan IDEF0 dengan Studi Kasus di Daytrans
+Executive Shuttle Cabang Utama Bandung
+Meliana Christianti J., Riani
+Jurusan Teknik Informatika, Fakultas Teknologi Informasi
+Universitas Kristen Maranatha, Bandung
+email: meliana.christianti@itmaranatha.org, rin.wongliyi@gmail.com 
+
+3. Pemodelan Proses Bisnis Menggunakan IDEF0 dengan
+Studi Kasus Bank X
+Meliana Christianti J.1
+, Ferry Yulius Eka Saputra2
+Jurusan S1 Teknik Informatika
+Fakultas Teknologi Informasi, Universitas Kristen Maranatha
+1,2Jl. Prof. drg. Surya Sumantri No. 65 Bandung 40164
+email: meliana.christianti@it.maranatha.edu, ferry_delon@yahoo.com
+
+MVC dan LARAVEL
+
+1. Konferensi Nasional Sistem Informasi 2018 STMIK Atma Luhur Pangkalpinang, 8 – 9 Maret 2018  
+1329  
+Pemanfaatan Framework Laravel Dalam Pembangunan Aplikasi E-Travel Berbasis Website  
+I Gede Handika1), Ayi Purbasari2) Universitas Pasundan 081246404337 e-mail: igede.handika@gmail.com 
+
+2. Penerapan Konsep MVC Pada Aplikasi Web Menggunakan Framework Laravel  
+Hasyrif SY, Rismayani STMIK Dipanegara Makassar Jl.Perintis Kemerdekaan Km 9 Makassar, telp 0411-587194 fax. 0411-588284  e-mail: hasyrif@gmail.com, maya_setya@ymail.com   

@@ -1,0 +1,2739 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+\size largest
+\lang bahasa
+2.1 Business Process Model NOTATION (BPMN)
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Definisi Business Process Modelling NOTATION (BPMN) adalah suatu metodo-
+ logi yang relatif baru tetapi saat ini mulai banyak diterima oleh kalangan
+ luas sebagai suatu model standar untuk menggambarkan proses bisnis suatu
+ organisasi (Rosmala, 2007).
+ Mengacu pada definisi BPMNdari web BPMN www.bpmn.org “is A GRA- PHICAL NOTATION
+ THAT depict the steps in A business process”, penulis menarik simpulan
+ bahwa BPMN merupakan representasi grafis alur bisnis yang ter- jadi pada
+ suatu organisasi atau instansi yang digambarkan dengan notasi.
+ BPMN akan memberi perusahaan kemampuan memahami prosedur bisnis internal
+ mereka dalam notasi grafis dan akan memberi organisasi kemam- puan untuk
+ mengkomunikasikan prosedur ini secara standar.
+ Selanjutnya, notasi grafis akan memudahkan pemahaman tentang kolaborasi
+ kinerja dan transaksi bisnis antar organisasi.
+ Ini akan memastikan bahwa bisnis akan memahami diri mereka sendiri dan
+ peserta dalam bisnis mereka dan akan memungkinkan organisasi menyesuaikan
+ diri dengan situasi bisnis internal dan Business to Business (B2B) yang
+ baru dengan cepat.
+ (Object MANAGEMENT Group BPMN) (Fahmi, 2017).
+ Tujuan utama dari BPMN adalah menyediakan suatu notasi standar yang mudah
+ dipahami oleh semua pemangku kepentingan bisnis ( , OMG, 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+2011).
+ BPMN dapat digunakan sebagai alat bantu untuk menjelaskan ba- gaimana cara
+ mendesain business process dan mendeskripsikan secara teknis bagaimana
+ business process dieksekusi untuk keperluan otomasi.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size largest
+\lang bahasa
+2.1.1 Notasi BPMN
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Terdapat empat kategori elemen dasar pada BPMN 2.0 yaitu flow object, con-
+ necting object, SWIMLANES, dan ARTIFACTS (Yudhanto, 2019).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+\lang bahasa
+2.1.1.1 Flow Object 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Flow object adalah elemen utama yang menggambarkan karakteristik dari sebuah
+ proses bisnis.
+ Flow Object terdiri dari 3 elemen yaitu event, ACTIVITY, dan GATEWAY.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+• Even
+\series default
+t 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Event adalah sesuatu yang terjadi selama rangkaian dari sebuah busi- ness
+ process.
+ Event ini mempengaruhi alur dari proses dan biasanya memiliki sebuah tindakan
+ atau sebuah hasil.
+ Simbolnya adalah bentuk lingkaran dan berdasarkan alur pengaruhnya, terdapat
+ 3 jenis event yaitu:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- START Event
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+digunakan untuk menggambarkan permulaan da- ri sebuah proses.
+ Tidak ada aliran proses sebelum START Events.
+ START Events digambarkan berbentuk lingkaran dengan satu garis tipis.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• None START Event digunakan untuk menandai awal dari sebu- ah proses tanpa
+ ada pemicu atau kondisi yang didefinisikan untuk memulai sebuah proses
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 1.PNG
+	width 75col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi none START event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• MESSAGE START Event digunakan untuk memulai sebuah pro- ses dengan pemicu
+ yaitu sebuah pesan yang diterima dari partisipan lain.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 2.PNG
+	width 75col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi MESSAGE START Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Timer START Event menggambarkan proses akan dimulai pada waktu tertentu
+ atau pada tanggal yang telah ditentukan.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 3.PNG
+	width 75col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Timer START Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• CONDITIONAL START Event menggambarkan situasi dimana pro- ses dapat dimulai
+ ketika kondisi bisnis yang ditetapkan ber- nilai benar.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 4.PNG
+	width 75col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi CONDITIONAL START Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• SIGNAL START Event menggambarkan proses akan dimulai ke- tika menangkap
+ sinyal yang datang dari proses lain.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 5.PNG
+	width 75col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi SIGNAL START Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Multiple START Event menggambarkan proses akan dimulai ketika menangkap
+ lebih dari satu pemicu.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 6.png
+	width 75col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Multiple START Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+- INTERMEDIATE Event Simbol INTERMEDIATE terletak diantara START Event dan
+ End Event.
+ Simbol Ini akan mempengaruhi alur proses, tetapi tidak akan memulai atau
+ secara langsung menghentikan proses.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• None INTERMEDIATE Event menunjukkan bahwa sesuatu yang terjadi atau dapat
+ terjadi dalam proses.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 7.PNG
+	width 75col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi None INTERMEDIATE Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Event
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• MESSAGE INTERMEDIATE Event digunakan untuk mengirim pes- an atau menerima
+ pesan ke partisipan lain pada Pool yang berbeda.
+ Jenis event ini dapat digunakan dalam aliran pro- ses sekuensial atau bisa
+ juga melekat pada garis batas (bo- UNDARY) dari suatu TASK untuk menunjukkan
+ aliran proses pengecualian (exception flow).
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 8.PNG
+	width 75col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi MESSAGE INTERMEDIATE Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Timer INTERMEDIATE Event menunjukkan waktu tunggu dalam sebuah proses.
+ Proses akan berjalan ketika kondisi waktu terpenuhi.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 9.PNG
+	width 75col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Timer INTERMEDIATE Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• CONDITIONAL INTERMEDIATE Event digunakan ketika aliran pro- ses perlu
+ menunggu kondisi yang harus dipenuhi terlebih dahulu.
+ Proses dapat dimulai ketika kondisi yang ditetapk- an bernilai benar.
+ CONDITIONAL INTERMEDIATE Event dapat di- gunakan dalam aliran proses sekuensial
+ yang menunjukkan bahwa aliran proses harus menunggu sampai kondisi bisnis
+ terpenuhi atau dapat juga melekat ke garis batas (BOUNDARY) pada suatu
+ TASK yang menunjukkan aliran proses pengecu- alian (exception flow) yang
+ akan diaktifkan ketika kondisi terpenuhi.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 10.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi CONDITIONAL INTERMEDIATE Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• SIGNAL INTERMEDIATE Event digunakan untuk mengirim atau menerima sinyal.
+ Jika SIGNAL INTERMEDIATE Event digambark- an dalam aliran sekuensial dari
+ sebuah proses maka dapat digunakan untuk mengirim atau menerima sinyal.
+ Tetapi ji- ka SIGNAL INTERMEDIATE Event digambarkan melekat pada ga- ris
+ batas (BOUNDARY) suatu TASK, maka hanya bisa digunakan untuk menerima sinyal
+ dan menunjukkan aliran proses pe- ngecualian (exception flow) yang akan
+ diaktifkan ketika si- nyal diterima.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 11.png
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi SIGNAL INTERMEDIATE Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• CANCEL INTERMEDIATE Event digunakan dalam transaksi subp- rocess.
+ Event ini selalu digambarkan melekat ke batas (bo- UNDARY) subproses transaksio
+nal dan menunjukkan aliran al- ternatif yang dapat dilakukan pada saat transaksi
+ subprocess dibatalkan.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 12.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi CANCEL INTERMEDIATE Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Error INTERMEDIATE Event digunakan untuk menangkap kesa- lahan dan untuk
+ menangani kesalahan tersebut.
+ Event ini hanya dapat melekat pada batas (BOUNDARY) suatu TASK.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 13.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Error INTERMEDIATE Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+- End Event diindikasikan sebagai simbol untuk mengakhiri se- buah proses.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• None End Event menunjukkan bahwa rute dari proses telah mencapai akhir.
+ Proses hanya dapat diselesaikan ketika se- mua rute aliran sampai pada
+ None End Event.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 14.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi None End Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• MESSAGE End Event menunjukkan bahwa pesan dikirimkan pada ke proses lain
+ pada saat proses aliran proses mencapai MESSAGE End Event ini.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 15.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi MESSAGE End Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• SIGNAL End Event menunjukkan bahwa sinyal akan dihasilkan pada saat proses
+ aliran proses mencapai SIGNAL End Event ini.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 16.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi SIGNAL End Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• TERMINATE End Event digunakan untuk mengakhiri proses se- cara keseluruhan.
+ Ketika salah satu rute aliran proses tiba di ujungnya yaitu TERMINATE End
+ Event ini maka proses telah benar-benar selesai.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 17.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi TERMINATE End Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• CANCEL End Event digunakan dalam transaksi subproses dan menunjukkan bahwa
+ transaksi harus dibatalkan.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 18.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi CANCEL End Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Error End Event menunjukkan bahwa error dihasilkan ketika proses berakhir.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 19.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Error End Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Multiple End Event menggambarkan proses yang dimulai de- ngan lebih dari
+ satu pemicu berakhir.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 20.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Multiple End Event
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• Activity Activity menyatakan suatu pekerjaan atau tugas yang dilakukan
+ di pro- ses bisnis pada sebuah organisasi.
+ Activity dapat berupa pekerjaan yang bersifat ATOMIC (tingkatan paling
+ rendah yang dapat ditampilkan dalam diagram) maupun compound (dapat ditelusuri
+ hingga ke tingkatan le- bih detail).
+ Contoh tipe Activity yang bersifat ATOMIC adalah TASK.
+ Con- toh tipe Activity yang bersifat compound adalah Sub-Process.
+ Perbeda- an notasi antara sebuah TASK dan Sub-Process adalah bahwa Sub-Process
+ mempunyai sebuah tanda plus yang diletakkan dibagian tengah bawah dari
+ persegi panjang.
+ Tanda plus ini memberikan penjelasan bahwa se- buah Sub-Process dapat dibuka
+ dan akan menampilkan bagian yang lebih rinci (Yudhanto, 2019).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 21.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Activity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• 
+\series bold
+TASK 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+TASK merupakan unit terkecil dari Activity yang terdapat di proses bis-
+ nis.
+ TASK digunakan pada saat terdapat pekerjaan atau tugas di proses bisnis
+ yang tidak dapat dipecah lagi menjadi unit yang lebih kecil.
+ Ter- dapat beberapa tipe TASK yang disediakan di BPMN 2.0, antara lain:
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+- 
+\series bold
+None TASK:
+\series default
+ Sebuah TASK yang bersifat umum atau tidak mem- punyai definisi, biasanya
+ sering digunakan ketika pengembangan proses di fase awal.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 22.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi None TASK
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+- MANUAL TASK: Sebuah Task yang dikerjakan secara manual tan- pa melibatkan
+ mekanisme otomasi di workflow atau BPMN Engi- ne.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Task tipe ini biasanya melibatkan peranan manusia.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 23.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi MANUAL TASK
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- Receive TASK:
+\series default
+ Menunggu sebuah MESSAGE yang datang dari par- tisipan eksternal.
+ Ketika MESSAGE datang, maka status TASK men- jadi selesai.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 24.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Receive TASK
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- Script TASK:
+\series default
+ Menjalankan script yang telah didefiniskan sebe- lumnya.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 25.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Script TASK
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- Send TASK:
+\series default
+ Mengirimkan sebuah MESSAGE kepada partisipan eks- ternal.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 26.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Send TASK
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- Service TASK:
+\series default
+ Menghubungkan ke beberapa layanan yang ter- sedia, biasanya bisa berupa
+ sebuah web service atau aplikasi lain- nya.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 27.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Service TASK
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- Business Rule TASK:
+\series default
+ Menyediakan mekanisme masukan untuk diproses oleh Business Rule Engine
+ dan mengambil hasil dari pro- ses tersebut.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 28.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Business Rule TASK
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- User TASK:
+\series default
+ Melakukan pekerjaan yang melibatkan manusia ter- utama terkait dengan dokumen
+ atau form.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 29.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi User TASK
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+• 
+\series bold
+Sub-Process
+\series default
+ mewakili Acitivity bertipe compound atau gabungan.
+ Mak- sud dari compound adalah elemen Sub-Process masih dapat dipecah- pecah
+ lagi menjadi bagian yang lebih rinci.
+ Terdapat dua cara untuk menggambarkan notasi diagram Sub-Process ini, yaitu:
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- COLLAPSED
+\series default
+.
+ Penggambaran notasi Sub-Process seperti sebuah TASK (persegi panjang berujung
+ tumpul) dengan penambahan se- buah tanda plus di bagian tengah sisi bawah.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 30.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi COLLAPSED Sub-Process
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- EXPANDED
+\series default
+.
+ Detail isi Sub-Process dibuka sehingga elemen- elemen yang terdapat di
+ dalamnya dapat diketahui semuanya.
+ Pada penggambaran jenis ini, tanda plus di bagian tengah sisi bawah dihilangkan.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 31.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi EXPANDED Sub-Process
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+• GATEWAY
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+GATEWAY merupakan salah satu elemen BPMN yang digunakan untuk mengatur bagaimana
+ aliran proses berlangsung, baik divergen atau pun konvergen.
+ Jika tidak ada aliran proses yang ingin dikendalikan, maka penggunaan GATEWAY
+ tidak diperlukan.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- Exclusive GATEWAY
+\series default
+ digunakan untuk memilih salah satu kondisi yang benar sesuai dengan syarat-syar
+at yang ditetapkan.
+ Exclusi- ve GATEWAY ini bersifat menyebar atau bercabang.
+ Secara seder- hana, perilaku Exclusive GATEWAY ini hampir sama dengan Deci-
+ sion pada FLOWCHARt yang bisa mempunyai banyak pilihan, bukan hanya dua
+ pilihan.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 32.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Exclusive GATEWAY
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- EVENT-BASED GATEWAY
+\series default
+ digunakan untuk memecah aliran proses yang perilakunya hampir sama dengan
+ Inclusive GATEWAY, perbe- dannya adalah tujuan aliran proses dari percabangan
+ EVENT-BASED GATEWAY ini berdasarkan pada Event, bukan kondisi ekspresi
+ data.
+ GATEWAY ini dapat mengontrol satu atau beberapa Event.
+ Interme- DIATE Event yang valid pada EVENT-BASED GATEWAY yaitu MESSAGE,
+ Timer, CONDITIONAL, SIGNAL.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 33.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi EVENT-BASED GATEWAY
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- PARALLEL EVENT-BASED GATEWAY
+\series default
+.GATEWAY ini mirip dengan gate- way paralel.
+ Hal ini memungkinkan beberapa proses terjadi pada 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+saat bersamaan, namun tidak seperti GATEWAY PARALLEL, proses ber- gantung
+ pada peristiwa.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 34.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi PARALLEL EVENT-BASED GATEWAY
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- Inclusive GATEWAY
+\series default
+ bersifat divergen digunakan untuk memilih kondisi yang benar sesuai syarat-syar
+at yang ditetapkan, perbe- daan dengan Exclusive GATEWAY adalah dalam Inclusive
+ GATEWAY kondisi yang dipilih bisa lebih dari satu kondisi.
+ Secara sederha- na, perilaku Inclusive GATEWAY ini hampir sama dengan decision
+ akan tetapi ada lebih dari satu kemungkinan kondisi atau aliran proses
+ yang dipilih.
+ Inclusive GATEWAY yang bersifat konvergen di- gunakan untuk menyatukan
+ atau menggabungkan aliran proses yang berasal dari pecahan aliran proses
+ Inclusive GATEWAY sebe- lumnya.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 35.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Inclusive GATEWAY
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+- Complex GATEWAY
+\series default
+ digunakan untuk mengontrol aliran proses yang tujuan alirannya memiliki
+ kondisi yang kompleks yang ma- na tidak dapat ditangani oleh tipe GATEWAY
+ yang lainnya.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 36.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Complex GATEWAY
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+2.1.1.2 Connecting Object
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Connecting object adalah elemen yang menghubungkan Flow object.
+ Conne- cting Object juga memiliki 3 jenis elemen yaitu sequence flow, MESSAGE
+ flow, DAN ASSOCIATION (Yudhanto, 2019).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+• Alur Sequence (Sequence Flow)
+\series default
+ Digunakan untuk menunjukkan urut- an yang kegiatan akan yang dilakukan
+ dalam sebuah proses.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+- Normal Sequence Flow mengacu pada jalur Sequence Flow yang tidak dimulai
+ dari INTERMEDIATE Event yang melekat pada batas (BOUNDARY) dari suatu aktifitas.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 37.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Normal Sequence Flow
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+- CONDITIONAL Sequence Flow Sequence Flow dapat memiliki kondi- si yang
+ sudah didefinisikan sebelumnya jika Sequence Flow keluar dari suatu aktifitas.
+ Aktifitas tersebut harus memiliki minimal dua Sequence Flow.
+ Kondisi harus bernilai true agar aliran menerusk- an Sequence Flow.
+ Mini GATEWAY menunjukkan bahwa Sequence Flow memiliki kondisi yang sudah
+ didefinisikan.
+ Pada Sequence Flow yang keluar minimal ada satu kondisi yang harus dipilih
+ se- lama proses berjalan.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 38.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi CONDITIONAL Sequence Flow Sequence Flow
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+- DEFAULT Sequence Flow adalah salah satu aliran yang keluar dari Exclusive
+ GATEWAY atau Inclusive GATEWAY yang dapat didefinisikan sebagai DEFAULT
+ Sequence Flow.
+ Aliran ini akan digunakan hanya jika semua aliran kondisional yang lain
+ bernilai FALSE.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 39.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi DEFAULT Sequence Flow
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+• Alur Pesan (Messege Flow)
+\series default
+.
+ Digunakan untuk menunjukkan aliran pesan antara dua partisipan dalam sebuah
+ Proses.
+ MESSAGE Flow dapat terhubung ke batas (BOUNDARY) Pool atau untuk sebuah
+ objek di da- lam Pool.
+ MESSAGE Flow tidak diperbolehkan sebagai penghubung antar objek dalam satu
+ pool.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 40.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi MESSAGE Flow
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+• Asosiasi (ASSOCIATIon)
+\series default
+.
+ Digunakan untuk mengasosiasikan informasi dan ARTIFACTS dengan objek satu
+ sama lain.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 41.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi ASSOCIATION
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+2.1.1.3 SWIMLANES
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+SWIMLANES adalah pengelompokan dari beberapa model elemen.
+ Swimlines digunakan untuk memisahkan dan mengatur kegiatan oleh peserta
+ sehingga kita secara intuitif dapat memahami siapa yang bertanggung jawab
+ untuk setiap event.
+ Swimlines ada 2 jenis yaitu pools dan LANES.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+• Pools
+\series default
+.
+ Pools adalah sebuah wadah untuk menempatkan atau meng- gambar satu bisnis
+ proses.
+ Nama dari pool bisa juga menjadi nama bisnis proses.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 42.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Pools
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+• LANES
+\series default
+.
+ LANE adalah bagian dari Pool.
+ LANE yang menjadi pembatas antar partisipan yang memiliki peran masing-masing
+ dalam organisasi.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 43.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi LANES
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+2.1.1.4 ARTIFACTS
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+ARTIFACTS adalah elemen yang digunakan untuk memberikan informasi tam- bahan
+ dari sebuah proses.
+ Bentuk dan penggunaan ARTIFACTS itu bermacam- 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+macam dan bisa lebih luas tergantung dari standar pengertian BPMN yang digunakan.
+ Saat ini terdapat 3 setingan pengaturan ARTIFACTS, yaitu DATA ob- ject,
+ group, dan ANNOTATIONS (Yudhanto, 2019).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+• DATA Object
+\series default
+.
+ DATA object memberikan informasi tentang aktifitas yang perlu dikerjakan
+ dan atau apa yang dihasilkan.
+ DATA objects dapat me- wakili objek tunggal atau koleksi dari banyak objek.
+ data input dan data output memberikan informasi yang sama untuk proses.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 44.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi DATA Object
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+• Group
+\series default
+.
+ Group adalah mekanisme VISUAl yang memungkinkan penge- lompokan kegiatan
+ untuk tujuan dokumentasi atau analisis.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 45.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Group
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\lang bahasa
+• ANNOTATIONS.
+
+\series default
+ Bertujuan untuk memberikan informasi tambahan ten- tang proses bagi pembaca.
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename 46.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi ANNOTATIONS
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size largest
+\lang bahasa
+2.2 Camunda
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+Camunda merupakan salah satu BPMS yang bersifat open source dengan fi- tur
+ yang lengkap.
+ Namun demikian, antar muka pengguna (tampilan) yang disediakan Camunda
+ sangat kaku dan tidak mudah diintegrasikan, sehingga 
+\end_layout
+
+\begin_layout Standard
+
+\lang bahasa
+sulit digunakan.
+ Camunda juga menyediakan antar muka untuk berkomuni- kasi dengan aplikasi
+ lain menggunakan web service (Rosa, 2019).
+ Camunda dijadikan sebagai Workflow Engine.
+ Workflow Engine dimasa lalu kerap dikaitkan erat oleh sistem yang berat/
+ memakan banyak resource, vendor lock in yang berbayar mahal, serta monolith
+ pada sistem SOA (Servi- ce Oriented Architecture).
+ Camunda penulis pilih sebagai Workflow Engine, karena Camunda mudah dan
+ extensible.
+ Bernd Ruecker salah satu AUTHOR da- ri Camunda pintar menjelaskan tentang
+ kebutuhan Workflow Engine dalam arsitektur Microservice, serta visi dia
+ dalam membawa Workflow Engine ini kedepannya.
+ Camunda digunakan untuk dapat menyelesaikan permasalah- an “Timeout” dan
+ manajemen “STATE control” (Satria, 2019).
+ 
+\end_layout
+
+\end_body
+\end_document
